@@ -1,0 +1,36 @@
+{
+  "name": "dsh-meeting-room",
+  "version": "1.2.1",
+  "description": "会议室：请几位外部大模型坐到一张桌上，叫到才发言，按顺序接话。观点由他们给，判断和决定在你。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "multi-model",
+    "meeting",
+    "council",
+    "consult"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json",
+    "./client": "./lib/client.js"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}

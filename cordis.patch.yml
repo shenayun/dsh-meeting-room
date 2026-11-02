@@ -1,0 +1,4 @@
+# dsh-meeting-room bundle patch: inserts this plugin into a profile's layer stack.
+- insert:
+    - id: dsh-meeting-room
+      name: 'dsh-meeting-room'
