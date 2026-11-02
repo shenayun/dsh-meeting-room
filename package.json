@@ -1,6 +1,6 @@
 {
   "name": "dsh-meeting-room",
-  "version": "1.2.2",
+  "version": "1.3.1",
   "description": "会议室：请几位外部大模型坐到一张桌上，叫到才发言，按顺序接话。观点由他们给，判断和决定在你。",
   "keywords": [
     "deepseek-harness",
